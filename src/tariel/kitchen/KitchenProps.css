@@ -1,0 +1,50 @@
+.kitchenprops{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 486px;
+  height: 111px;
+  gap: 20px;
+}
+.food__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.food__title h1 {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: 700;
+}
+.food__title button {
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  width: Hug (84px) px;
+  height: Hug (38px) px;
+  padding: 10px 20px 7px 20px;
+  border-radius: 5px;
+  border: 2px solid rgba(213, 98, 29, 1);
+  background: transparent;
+}
+.weight {
+  font-family: Stolzl;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(213, 98, 29, 1);
+  margin-bottom: 8px;
+}
+.description {
+  font-family: Stolzl;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: white;
+}
