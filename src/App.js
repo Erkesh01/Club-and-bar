@@ -17,9 +17,6 @@ function App() {
       <Section2/>
       <Section3/>
       <Footer/>
-
-
-      
     </div>
   );
 }
