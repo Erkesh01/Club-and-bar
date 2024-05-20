@@ -7,7 +7,7 @@ import KitchenProps from "./KitchenProps.jsx";
 const Kitchen = () => {
   return (
     <div className="kitchen">
-      <h2>Top “Manhattan” menu</h2>
+      <button className="btn__top__menu">Top “Manhattan” menu</button>
       <h1>Кухня</h1>
       <div className="kitchen__container">
         <button className="arrow"><img src={assets.icon2}/></button>

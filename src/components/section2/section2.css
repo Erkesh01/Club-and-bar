@@ -1,0 +1,119 @@
+.all-section2 {
+  width: 1296px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.all-section2 h2 {
+  width: 260px;
+  padding: 10px 0px 7px 0px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgba(33, 14, 9, 1);
+  font-weight: 700;
+  text-align: center;
+  line-height: 21px;
+  font-family: "GothamPro";
+  margin: 0 auto;
+}
+.all-section2 h1 {
+  font-size: 40px;
+  font-family: "GothamPro";
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 35px;
+  text-align: center;
+}
+.all-section2-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.section2-block-left {
+  margin-top: 25px;
+}
+.section2-block-left h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(213, 98, 29, 0.1);
+  font-family: "GothamPro";
+  font-weight: 700;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.section2-block-left img {
+  width: 25px;
+  height: 25px;
+  margin-left: 280px;
+}
+
+.section2-menu li {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-family: "Stolzi";
+  margin-left: 50px;
+  line-height: 31px;
+}
+
+.list-container.visible {
+  background: rgba(213, 98, 29, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 526px;
+  height: 253px;
+  margin-left: 40px;
+  padding-left: 0px;
+  border-radius: 5px;
+}
+.list-container.visible h3,
+.list-container.visible img,
+.list-container.visible li {
+  color: rgba(255, 255, 255, 1);
+}
+.section2-block-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.section2-block-right h4 {
+  font-size: 32px;
+  font-family: "GothamPro";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+}
+.section2-block-right-man {
+  display: flex;
+  align-items: center;
+}
+.section2-block-right-man p {
+  font-size: 14px;
+  font-family: "GothamPro";
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 21px;
+}
+.section2-vk {
+  padding: 10px 10px;
+  border: 2px solid rgba(213, 98, 29, 1);
+  border-radius: 5px;
+}
+.section2-tg {
+  padding: 10px 10px;
+  border: 2px solid rgba(213, 98, 29, 1);
+  border-radius: 5px;
+}
+.section2-tg-vk{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}

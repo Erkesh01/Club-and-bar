@@ -1,8 +1,9 @@
+import Footer from "./components/footer/footer";
+import Section1 from "./components/section1/section1";
+import Section2 from "./components/section2/section2";
+import Section3 from "./components/section3/section3";
 import Header from "./tariel/header/Header";
-import './app.css'
-import Main from "./tariel/main_section/Main";
 import Kitchen from "./tariel/kitchen/Kitchen";
-import AfishaMain from "./edil/afisha/afishMain";
 
 function App() {
   return (
@@ -10,7 +11,6 @@ function App() {
       <Header/>
       <Main/>
       <Kitchen/>
-      <AfishaMain/>
     </div>
   );
 }

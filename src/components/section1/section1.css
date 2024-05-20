@@ -1,0 +1,80 @@
+body {
+  background: rgba(33, 14, 9, 1);
+}
+/* @font-face {
+  font-family: "GothamPro-Black";
+  src: url("./fonts/gothampro-black.eot");
+  src: url("./fonts/gothampro-black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/gothampro-black.woff2") format("woff2"),
+    url("./fonts/gothampro-black.woff") format("woff"),
+    url("./fonts/gothampro-black.ttf") format("truetype"),
+    url("./fonts/gothampro-black.svg#gothampro-black") format("svg");
+} */
+@font-face {
+  font-family: "GothamPro";
+  src: url("./fonts/gothampro.ttf");
+  src: url("./fonts/gothampro_black.ttf"), url("./fonts/gothampro_bold.ttf"),
+    url("./fonts/gothampro_light.ttf"), url("./fonts/gothampro_medium.ttf");
+}
+@font-face {
+  font-family: "Stolzi";
+  src: url("./fonts/Stolzl-Bold.ttf");
+  src: url("./fonts/Stolzl-Book.ttf"), url("./fonts/Stolzl-Light.ttf"),
+    url("./fonts/Stolzl-Medium.ttf"),
+    url("./fonts/Stolzl-Regular.ttf") url("./fonts/Stolzl-Thin.ttf");
+}
+.all-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1296px;
+}
+.section1-event {
+  text-align: center;
+}
+.section1-event h2 {
+  width: 260px;
+  padding: 10px 0px 7px 0px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgba(33, 14, 9, 1);
+  font-weight: 700;
+  text-align: center;
+  line-height: 21px;
+  font-family: "GothamPro";
+  margin: 0 auto;
+}
+.section1-event h1 {
+  font-size: 40px;
+  font-family: "GothamPro";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 45px;
+}
+.section1-event p {
+  font-family: "Stolzi";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  line-height: 21px;
+}
+.section1-event button{
+    width: 156px;
+    height: 51px;
+    border: 2px solid rgba(213, 98, 29, 1);
+    background: rgba(33, 14, 9, 1);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Stolzi";
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+
+}
+
+.section1-img img{
+    width: 416px;
+    height: 560px;
+
+}
