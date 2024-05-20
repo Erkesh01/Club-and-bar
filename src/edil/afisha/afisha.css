@@ -1,0 +1,87 @@
+.afishMain{
+    max-width: 1325px;
+    padding: 0 10px 0;
+    margin: auto;
+}
+.afishMainText{
+    text-align: center;
+}
+.afishMainText button{
+    width: 19%;
+    height: 38px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(33, 14, 9, 1);
+    border-radius: 5px;
+}
+.afishMainText h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-family: Gotham Pro;
+}
+.afishaWrap{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 0 20px 0;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.afishaGallery{
+    width : 306px;
+    position: relative;
+    margin-top: 30px;
+}
+.afishaGallery img{
+    width: 100%;
+    height: 100%;
+}
+.afishaGalleryText{
+    position: absolute;
+    margin-top: -150px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+.afishaGallery:hover .afishaGalleryText{
+    display: block;
+}
+.afishaGalleryText span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px ;
+    background-color: rgba(213, 98, 29, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 80%;
+    gap: 2%;
+    height: 35px;
+    justify-content: center;
+}
+.afishaGalleryText span p{
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.afishaGalleryText h2{
+    font-family: Gotham Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 1);
+}
+.afishaBtn{
+    width: Hug (84px)px;
+    height: Hug (38px)px;
+    padding: 10px 20px 7px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgba(33, 14, 9, 0.6);
+    border: 2px solid rgba(213, 98, 29, 1);
+    color: rgba(255, 255, 255, 1);
+}
