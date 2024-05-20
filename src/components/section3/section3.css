@@ -1,0 +1,64 @@
+.all-section3 h2 {
+  width: 260px;
+  padding: 10px 0px 7px 0px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgba(33, 14, 9, 1);
+  font-weight: 700;
+  text-align: center;
+  line-height: 21px;
+  font-family: "GothamPro";
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.all-section3 h1 {
+  font-size: 40px;
+  font-family: "GothamPro";
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 35px;
+  text-align: center;
+}
+.section3-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1296px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.section3-block-info {
+  width: 416px;
+  height: 656px;
+  border-radius: 5px;
+  background: rgba(213, 98, 29, 0.1);
+  border: 2px solid rgba(213, 98, 29, 1)
+}
+.section3-block-info h4 {
+  font-size: 18px;
+  font-family: "GothamPro";
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.section3-block-info p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: "Stolzi";
+    line-height: 21px;
+    margin-left: 50px;
+}
+.section3-block-info hr{
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+.section3-block-map iframe{
+    width: 856px;
+    height: 656px;
+    border-radius: 5px;
+    border: 2px solid rgba(213, 98, 29, 1)
+}

@@ -1,0 +1,17 @@
+.footer{
+    max-width: 1296px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-info h4{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: "Stolzi";
+    line-height: 21px;
+    
+}
