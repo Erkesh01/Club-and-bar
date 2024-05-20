@@ -5,12 +5,12 @@ import { assets } from "../assets/data";
 const Main = () => {
   return (
     <div className="main">
-      <div className="container">
+      <div className="main__container">
         <div className="left__main">
           <div className="left__text">
             <button>Since 1996</button>
             <h1>
-              True. Fontanka. <br /> Underground.{" "}
+              True. Fontanka. <br /> Underground.
             </h1>
           </div>
         </div>
@@ -25,7 +25,7 @@ const Main = () => {
             </div>
           </div>
           <div className="right__main__img">
-              <img className="main__img__container" src={assets.ph2} />
+              <img src={assets.ph2} />
               <img src={assets.ph3} />
               <img src={assets.ph4} />
               <img src={assets.ph5} />
