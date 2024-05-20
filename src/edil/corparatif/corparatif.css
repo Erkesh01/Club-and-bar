@@ -1,0 +1,123 @@
+.corpatifMain{
+    max-width: 1325px;
+    margin: auto;
+    padding: 0 10px 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 1);
+}
+.corparatifText{
+    text-align: center;
+}
+.corparatifText button{
+    width: 19%;
+    height: 38px;
+    border-radius: 5px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+body{
+    background-color: brown;
+}
+.corparatifText h2{
+    font-family: Gotham Pro;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+.corparatifText h3{
+    font-family: Gotham Pro;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+.corparatifWrap{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 30px;
+}
+.blockOne{
+    text-align: center;
+    width: 25%;
+}
+.blockOne image{
+    width: 100%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.blockOne p{
+    font-family: Stolzl;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.blockTwo{
+    text-align: center;
+    width: 25%;
+}
+.blockTwo image{
+    width: 100%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.blockTwo p{
+    font-family: Stolzl;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.box{
+    padding: 0 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.box h2{
+    font-family: Gotham Pro;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 1);
+
+}
+.box ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.box ul li{
+    position: relative;
+    padding-left: 20px;
+    font-family: Stolzl;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 10px;
+}
+.box ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; 
+    height: 10px;
+    background-color: rgba(213, 98, 29, 1); 
+}
