@@ -1,3 +1,4 @@
+import AfishaMain from "./edil/afisha/afishMain";
 
 
 function App() {

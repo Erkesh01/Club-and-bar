@@ -48,6 +48,10 @@
 }
 .afishaGallery:hover .afishaGalleryText{
     display: block;
+    filter: none;
+}
+.afishaGallery img:hover{
+    filter: grayscale(2);
 }
 .afishaGalleryText span{
     display: flex;
