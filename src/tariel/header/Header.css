@@ -27,6 +27,12 @@ ul {
   font-size: 14px;
   font-weight: 400;
   font-family: "Stolzl";
+}
+ul a {
+  color: #fff;
+  text-decoration: none;
+}
+ul li {
   cursor: pointer;
 }
 .header__btn {
