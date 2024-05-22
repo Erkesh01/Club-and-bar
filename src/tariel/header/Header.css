@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Stolzl";
+  src: url(../assets/Stolzl/stolzl_light.otf);
+}
 .header {
   max-width: 1296px;
   margin: 0 auto;
@@ -8,15 +12,21 @@
   align-items: center;
   justify-content: space-between;
 }
-nav {
+.nav__dropdown {
+  /* width: 30px;
+  height: 30px; */
+  display: none;
+}
+ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  list-style: none;
   gap: 0 30px;
+  list-style: none;
   color: white;
   font-size: 14px;
   font-weight: 400;
+  font-family: "Stolzl";
   cursor: pointer;
 }
 .header__btn {
@@ -31,12 +41,15 @@ nav {
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+  align-items: flex-end;
 }
 @media screen and (max-width: 1220px) {
   .header {
     max-width: 90%;
     margin: 0 auto;
-    margin-top: 20px;
+  }
+  ul {
+    gap: 0 15px;
   }
 }
 @media screen and (max-width: 1020px) {
@@ -45,8 +58,13 @@ nav {
     margin: 0 auto;
     margin-top: 20px;
   }
-  nav {
-    gap: 0 10px;
+  ul {
+    font-size: 12px;
+  }
+  .header__btn {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
   }
 }
 @media screen and (max-width: 970px) {
@@ -55,8 +73,13 @@ nav {
     margin: 0 auto;
     margin-top: 20px;
   }
-  nav {
-    gap: 0 5px;
+  ul {
+    gap: 0 10px;
+    font-size: 11px;
+  }
+  .header__img {
+    width: 140px;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 840px) {
@@ -65,17 +88,15 @@ nav {
     margin: 0 auto;
     margin-top: 20px;
   }
-  nav {
-    gap: 0 5px;
-    font-size: 12px;
-    font-weight: 400;
-  }
   .header__img {
-    width: 100px;
+    width: 130px;
     object-fit: cover;
   }
+  ul {
+    font-size: 9px;
+  }
   .header__btn {
-    padding: 10px 20px;
+    padding: 7px 15px;
     font-size: 12px;
     font-weight: 400;
   }
@@ -86,15 +107,67 @@ nav {
     margin: 0 auto;
     margin-top: 20px;
   }
-  nav {
-    font-size: 8px;
+  .nav__dropdown {
+    display: block;
+    width: 25px;
+    border-radius: 30px;
+    rotate: -90deg;
+    transition: 0.5s;
+    background-color: #fff;
   }
-  .header__img {
-    width: 80px;
-    object-fit: cover;
+  .nav__menu {
+    display: none;
+    justify-content: center;
+    gap: 13px;
+    height: 50px;
+    width: 81.2%;
+    position: absolute;
+    top: 55px;
+    background: rgb(33, 14, 9);
+    margin: auto;
   }
-  .header__btn {
-    padding: 7px 15px;
-    font-size: 9px;
+  .nav__menu li {
+    font-size: 12px;
+  }
+  .nav-menu-visible {
+    display: flex;
+  }
+  .nav__dropdown.open {
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 550px) {
+  .header {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .nav__dropdown {
+    display: block;
+    width: 25px;
+    border-radius: 50px;
+    rotate: -90deg;
+    transition: 0.5s;
+    background-color: #fff;
+  }
+  .nav__menu {
+    display: none;
+    justify-content: center;
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 55px;
+    background: rgb(33, 14, 9);
+    margin: auto;
+  }
+  .nav__menu li {
+    font-size: 10px;
+  }
+  .nav-menu-visible {
+    display: flex;
+    margin: 0 auto;
+  }
+  .nav__dropdown.open {
+    transform: rotate(90deg);
   }
 }
