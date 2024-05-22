@@ -19,7 +19,7 @@ const Header = () => {
           <li><NavLink to="/">Главная</NavLink> </li>
           <li><NavLink>Меню</NavLink> </li>
           <li><NavLink>Афиша</NavLink></li>
-          <li><NavLink>Сотрудничество</NavLink></li>
+          <li><NavLink to="/Сотрудничества">Сотрудничество</NavLink></li>
           <li><NavLink>Галерея</NavLink></li>
           <li><NavLink>Новости</NavLink></li>
         </ul>
