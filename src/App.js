@@ -1,5 +1,4 @@
-import AfishaMain from "./edil/afisha/afishMain";
-import Gallery from "./edil/gallery/gallery";
+
 
 
 function App() {
