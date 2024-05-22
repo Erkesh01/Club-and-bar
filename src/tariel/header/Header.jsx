@@ -18,9 +18,9 @@ const Header = () => {
         <ul ref={menuRef} className="nav__menu">
           <li><NavLink to="/">Главная</NavLink> </li>
           <li><NavLink>Меню</NavLink> </li>
-          <li><NavLink>Афиша</NavLink></li>
+          <li><NavLink to="/Афиша">Афиша</NavLink></li>
           <li><NavLink to="/Сотрудничества">Сотрудничество</NavLink></li>
-          <li><NavLink>Галерея</NavLink></li>
+          <li><NavLink to="/Галерея">Галерея</NavLink></li>
           <li><NavLink>Новости</NavLink></li>
         </ul>
         <button className="header__btn">БРОНИРОВАНИЕ</button>
