@@ -5,6 +5,7 @@ import Footer from "./components/footer/footer";
 import Corparatif from "./edil/corparatif/corparatif";
 import AfishaMain from "./edil/afisha/afishMain";
 import Gallery from "./edil/gallery/gallery";
+import Section3 from "./components/section3/section3";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Афиша" element={<AfishaMain/>}/>
         <Route path="/Галерея" element={<Gallery/>}/>
       </Routes>
+      <Section3/>
       <Footer/>
     </div>
   );
