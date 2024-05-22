@@ -15,7 +15,7 @@ export default function Corparatif(){
             <div className="corparatifWrap">
                 <div className="blockOne">
                     <img src={flame} alt="" />
-                    <p>Фуршетное меню от 1000 руб.  на человека (до 150 человек).</p>
+                    <p>Фуршетное меню от 1000 руб. на человека (до 150 человек).</p>
                 </div>
                 <div className="blockTwo">
                     <img src={flame2} alt="" />

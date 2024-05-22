@@ -6,6 +6,11 @@ import Header from "./tariel/header/Header";
 import Kitchen from "./tariel/kitchen/Kitchen";
 import Main from "./tariel/main_section/Main";
 
+import { Route, Routes } from "react-router-dom";
+import Header from "./tariel/header/Header";
+import Sections from "./Sections/Sections";
+import Footer from "./components/footer/footer";
+import Corparatif from "./edil/corparatif/corparatif";
 
 function App() {
   return (
