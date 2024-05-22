@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import './section2.css';
 import img1 from './img/img1.png';
@@ -14,21 +15,21 @@ export default function Section2() {
     };
 
     const renderList = (index, title) => (
-        <ul key={index} className={`list-container ${visibleIndex === index ? 'visible' : ''}`}>
+        <div key={index} className={`list-container ${visibleIndex === index ? 'visible' : ''}`}>
             <h3>
                 {title}
                 <img src={img5} onClick={() => handleImageClick(index)} />
             </h3>
             {visibleIndex === index && (
-                <div className="section2-menu">
+                <ul className="section2-menu">
                     <li>Acoustic system BELL Top 600W x 2</li>
                     <li>Acoustic system BELL Mid 600W x 2</li>
                     <li>Acoustic system BELL Sub 1000W x 2</li>
                     <li>Front monitor Yamaha SM12V 300w x 2</li>
                     <li>Backside monitor Dynacord 500W x 2</li>
-                </div>
+                </ul>
             )}
-        </ul>
+        </div>
     );
     
     return (
@@ -46,32 +47,32 @@ export default function Section2() {
                 </div>
                 <div className="section2-block-right">
                     <h4>ЗВУКОРЕЖИССЕРЫ <br /> КЛУБА МАНХЭТТЕН</h4>
-                  <div className="section2-block-right-man">
-                      <div>
-                        <img src={img1} alt="Изотов Константин" style={{width:"196px", height:"210px"}} />
-                        <p>Изотов <br />Константин</p>
-                        <div className="section2-tg-vk">
-                            <a href="https://m.vk.com/wall-128776180_3507639?offset=1&reply=3507987">
-                                <img src={img3} className="section2-vk" alt="VK" />
-                            </a>
-                            <a href="https://t.me/David_Arakhamia/183">
-                                <img src={img4} className="section2-tg" alt="Telegram" />
-                            </a>
+                    <div className="section2-block-right-man">
+                        <div>
+                            <img src={img1} alt="Изотов Константин" style={{width:"196px", height:"210px"}} />
+                            <p>Изотов <br />Константин</p>
+                            <div className="section2-tg-vk">
+                                <a href="https://m.vk.com/wall-128776180_3507639?offset=1&reply=3507987">
+                                    <img src={img3} className="section2-vk" alt="VK" />
+                                </a>
+                                <a href="https://t.me/David_Arakhamia/183">
+                                    <img src={img4} className="section2-tg" alt="Telegram" />
+                                </a>
+                            </div>
                         </div>
-                     </div>
-                     <div style={{marginLeft:"20px"}}>
-                        <img src={img2} alt="Давид Хозиев" style={{width:"196px", height:"210px",}} />
-                        <p>Давид <br /> Хозиев</p>
-                        <div className="section2-tg-vk">
-                            <a href="https://m.vk.com/wall-128776180_3507639?offset=1&reply=3507987">
-                                <img src={img3} className="section2-vk" alt="VK" />
-                            </a>
-                            <a href="https://t.me/David_Arakhamia/183">
-                                <img src={img4} className="section2-tg" alt="Telegram" />
-                            </a>
+                        <div style={{marginLeft:"20px"}}>
+                            <img src={img2} alt="Давид Хозиев" style={{width:"196px", height:"210px",}} />
+                            <p>Давид <br /> Хозиев</p>
+                            <div className="section2-tg-vk">
+                                <a href="https://m.vk.com/wall-128776180_3507639?offset=1&reply=3507987">
+                                    <img src={img3} className="section2-vk" alt="VK" />
+                                </a>
+                                <a href="https://t.me/David_Arakhamia/183">
+                                    <img src={img4} className="section2-tg" alt="Telegram" />
+                                </a>
+                            </div>
                         </div>
-                     </div>
-                  </div>
+                    </div>
                 </div>
             </div>
         </div>

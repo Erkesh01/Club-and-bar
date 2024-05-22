@@ -1,10 +1,3 @@
-import Footer from "./components/footer/footer";
-import Section1 from "./components/section1/section1";
-import Section2 from "./components/section2/section2";
-import Section3 from "./components/section3/section3";
-import Header from "./tariel/header/Header";
-import Kitchen from "./tariel/kitchen/Kitchen";
-import Main from "./tariel/main_section/Main";
 
 import { Route, Routes } from "react-router-dom";
 import Header from "./tariel/header/Header";
@@ -13,15 +6,18 @@ import Footer from "./components/footer/footer";
 import Corparatif from "./edil/corparatif/corparatif";
 import AfishaMain from "./edil/afisha/afishMain";
 import Gallery from "./edil/gallery/gallery";
+import Section3 from "./components/section3/section3";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Kitchen/>
-      <Section1/>
-      <Section2/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Sections />} />
+        <Route path="/Сотрудничества" element={<Corparatif/>}/>
+        <Route path="/Афиша" element={<AfishaMain/>}/>
+        <Route path="/Галерея" element={<Gallery/>}/>
+      </Routes>
       <Section3/>
       <Footer/>
     </div>

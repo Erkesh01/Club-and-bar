@@ -109,12 +109,15 @@ body {
 @media (max-width: 830px) {
   .all-section1 {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 90%;
     margin-top: 150px;
   }
+ 
 }
 
