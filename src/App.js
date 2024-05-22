@@ -1,4 +1,3 @@
-
 import { Route, Routes } from "react-router-dom";
 import Header from "./tariel/header/Header";
 import Sections from "./Sections/Sections";
