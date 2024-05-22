@@ -5,11 +5,13 @@ import { assets, product, product2 } from "../assets/data.jsx";
 import KitchenProps from "./KitchenProps.jsx";
 
 const Kitchen = () => {
-  const [allMenu, setAllMenu] = useState([true, true]);
+  const [allMenu, setAllMenu] = useState([false, true]);
+  const [margin, setMargin] = useState("0");
   const menuClick = (index) => {
     setAllMenu((eli) => {
       const newAllMenu = [...eli];
       newAllMenu[index] = !newAllMenu[index];
+
       return newAllMenu;
     });
     // if(menuClick) {
@@ -53,7 +55,11 @@ const Kitchen = () => {
             );
           })}
       </div>
-      <button onClick={() => menuClick(0)} className="btn__menu" style={{marginTop: '-300px'}}>
+      <button
+        onClick={() => menuClick(0)}
+        className="btn__menu"
+        style={{ marginTop: margin }}
+      >
         все меню
       </button>
     </div>
