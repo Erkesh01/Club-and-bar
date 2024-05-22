@@ -24,7 +24,7 @@ export default function Corparatif(){
             </div>
             <div className="box">
                 <h3>ПОЧЕМУ МЫ?</h3>
-                <ul>
+                <ul className="corparatifUl">
                     <li>Отдельный зал на 30 человек с профессиональной системой караоке</li>
                     <li>Удобная парковка и близость к трем станциям метро в центре города</li>
                     <li>Большие экраны</li>
